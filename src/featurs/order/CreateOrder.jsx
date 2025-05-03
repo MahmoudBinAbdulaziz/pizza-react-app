@@ -3,7 +3,7 @@ import { Form, redirect, useActionData, useNavigation } from "react-router-dom";
 import { createOrder } from "../../services/apiRestaurant";
 import Button from "../../ui/Button";
 import { useDispatch, useSelector } from "react-redux";
-import { getCart, getTotalCartPrice, clearCart } from "../cart/CartSlice";
+import { getCart, getTotalCartPrice, clearCart } from "../cart/cartSlice";
 import EmptyCart from "../cart/EmptyCart";
 import { formatCurrency } from "../../utils/helpers";
 import store from "../../store";
